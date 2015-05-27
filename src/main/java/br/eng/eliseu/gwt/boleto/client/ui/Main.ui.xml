@@ -1,0 +1,74 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:VerticalPanel horizontalAlignment="ALIGN_CENTER"
+		width="100%">
+		<g:VerticalPanel horizontalAlignment="ALIGN_LEFT" width="700px">
+			<g:TabLayoutPanel  ui:field="panel" barHeight="25" height="352px">
+				<g:tab>
+					<g:header>Boleto ???</g:header>
+					<g:VerticalPanel width="100%" height=""
+						horizontalAlignment="ALIGN_CENTER">
+						<g:Label text="Informe a numeração original do boleto" />
+						<g:HorizontalPanel width="100%">
+							<g:TextBox />
+							<g:TextBox />
+							<g:TextBox />
+							<g:TextBox />
+						</g:HorizontalPanel>
+						<g:HTML wordWrap="true" height="10px" />
+						<g:Button width="110px" text="Valida Codigo" />
+						<g:HTML height="10px" wordWrap="true" />
+						<g:VerticalPanel width="50%">
+							<g:HorizontalPanel width="100%"
+								verticalAlignment="ALIGN_MIDDLE" horizontalAlignment="ALIGN_RIGHT">
+								<g:Label text="Codigo Cliente: " width="120px" />
+								<g:TextBox width="" />
+							</g:HorizontalPanel>
+							<g:HorizontalPanel width="100%"
+								verticalAlignment="ALIGN_MIDDLE" horizontalAlignment="ALIGN_RIGHT">
+								<g:Label text="Numero da Fatura:" width="120px" />
+								<g:TextBox />
+							</g:HorizontalPanel>
+							<g:HorizontalPanel width="100%"
+								verticalAlignment="ALIGN_MIDDLE" horizontalAlignment="ALIGN_RIGHT">
+								<g:Label text="Data Emissao: " width="120px" />
+								<g:TextBox />
+							</g:HorizontalPanel>
+							<g:HorizontalPanel width="100%"
+								verticalAlignment="ALIGN_MIDDLE" horizontalAlignment="ALIGN_RIGHT">
+								<g:Label text="Total a Pagar:" width="120px" />
+								<g:TextBox />
+							</g:HorizontalPanel>
+							<g:HorizontalPanel width="100%"
+								verticalAlignment="ALIGN_MIDDLE" horizontalAlignment="ALIGN_RIGHT">
+								<g:Label text="Data Vencimento:" width="120px" />
+								<g:TextBox />
+							</g:HorizontalPanel>
+						</g:VerticalPanel>
+						<g:HTML height="10px" wordWrap="true" />
+						<g:Button>Gerar Novo Codigo de Barras</g:Button>
+						<g:HTML height="10px" wordWrap="true" />
+						<g:HorizontalPanel width="100%">
+							<g:TextBox />
+							<g:TextBox />
+							<g:TextBox />
+							<g:TextBox />
+						</g:HorizontalPanel>
+					</g:VerticalPanel>
+				</g:tab>
+				<g:tab>
+					<g:header>Boleto Febraban</g:header>
+					<g:VerticalPanel width="100%" height="" />
+				</g:tab>
+			</g:TabLayoutPanel>
+		</g:VerticalPanel>
+	</g:VerticalPanel>
+
+
+</ui:UiBinder> 

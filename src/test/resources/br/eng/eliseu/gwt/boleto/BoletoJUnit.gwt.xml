@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='br.eng.eliseu.gwt.boleto.Boleto' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/Boleto/greet" class="br.eng.eliseu.gwt.boleto.server.GreetingServiceImpl" />
+
+</module>
