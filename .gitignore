@@ -1,0 +1,40 @@
+*.class
+*.classpath
+# Package Files #
+*.jar
+*.war
+
+# gwt caches and compiled units #
+war/gwt_bree/
+gwt-unitCache/
+
+# boilerplate generated classes #
+.apt_generated/
+
+# more caches and things from deploy #
+deploy/
+classes/
+lib/
+bin/
+.settings/
+standard/
+
+#compilation logs
+.gwt/
+
+#caching for already compiled files
+gwt-unitCache/
+
+
+
+#old GWT (1.5) created this dir
+.gwt-tmp/ 
+
+
+.classpath/
+target/
+
+LoteriasWeb/
+bin/.gitignore
+*.orig
+*.project
