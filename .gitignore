@@ -18,6 +18,7 @@ lib/
 bin/
 .settings/
 standard/
+www-test/
 
 #compilation logs
 .gwt/
