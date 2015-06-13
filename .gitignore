@@ -39,4 +39,4 @@ LoteriasWeb/
 bin/.gitignore
 *.orig
 *.project
-/MeuPrimeiroBoleto.pdf
+*.pdf
