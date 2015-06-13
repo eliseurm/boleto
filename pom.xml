@@ -18,6 +18,16 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<repositories>
+		<repository>
+		   <id>jrimum.org</id>
+		   <url>http://jrimum.org/maven/content/groups/public/</url>
+		   <snapshots>
+		      <enabled>true</enabled>
+		   </snapshots>
+		 </repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
@@ -50,6 +60,13 @@
 			<classifier>sources</classifier>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+		   <groupId>org.jrimum</groupId>
+		   <artifactId>jrimum-bopepo</artifactId>
+		   <version>0.2.3-SNAPSHOT</version>
+		 </dependency>
+
 	</dependencies>
 
 	<build>
